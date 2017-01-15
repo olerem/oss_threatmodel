@@ -1,0 +1,24 @@
+* Confirming every operation by a hardware button
+https://lists.gt.net/gnupg/users/70043
+The thread provides some insights regarding possible threats and how
+having a hardware button to confirm every operation doesn't actually
+help much
+* Non-Gnuk security hardware based on STM32
+https://trezor.io/
+Free hardware and software implementation of Bitcoin (and other
+crypto-currency) wallet, password manager, 2F auth, GPG etc.
+* Yubico explaining the reasons behind their proprietary tamper-proof device
+https://www.yubico.com/2016/05/secure-hardware-vs-open-source/
+They explain why (in their opinion) it doesn't make any sense to build
+a tamper-proof secure device with open hardware and software
+* Gnuk author's position on side-channel attacks and physical security
+http://no-passwd.net/askbot/question/33/how-safe-is-gnuk-against-side-channel-attacks-usb/
+No sign of anyone actually trying to SCA his code
+* Voltage supply line side-channel attack on Yubikey 2 in details
+https://www.emsec.rub.de/media/crypto/veroeffentlichungen/2014/02/04/paper_yubikey_sca.pdf
+After new firmware from Yubico the attack was no longer possible, at
+least by the given hardware
+* OpenPGP Best Practices from riseup.net
+https://riseup.net/en/security/message-security/openpgp/best-practices
+No threat model, some sane suggestions; this page is linked from
+Debian wiki

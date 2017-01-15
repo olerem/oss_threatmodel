@@ -1,0 +1,10 @@
+* Does storing your name, gender etc on a smartcard (or emulator) harm?
+* Can STM32F1 flash be read for less than $2000?
+* How secure should the smartcard PW1, PW3, Reset keys be? Should any of them be also stored elsewhere?
+* Where to store backups of important keys, and if encrypted, where to store decryption keys?
+* Does it help to create SSH auth keys as subkeys of your main GPG key?
+* Does it help to create pass (https://www.passwordstore.org/) decription key as subkey of your main GPG key?
+* Is Schneier's secret sharing scheme useful for ordinary people?
+https://www.schneier.com/essays/archives/1992/04/sharing_secrets_amon.html
+* Is diceware worth using for generating passwords?
+https://en.wikipedia.org/wiki/Diceware
