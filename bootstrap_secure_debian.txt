@@ -1,0 +1,5 @@
+wget http://httpredir.debian.org/debian/dists/sid/Release.gpg
+wget http://httpredir.debian.org/debian/dists/sid/Release
+
+# currently fail here. Sig is expiered.
+gpg --check-sig Release
