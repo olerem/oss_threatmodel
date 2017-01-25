@@ -1,5 +1,16 @@
 wget http://httpredir.debian.org/debian/dists/sid/Release.gpg
 wget http://httpredir.debian.org/debian/dists/sid/Release
 
-# currently fail here. Sig is expiered.
-gpg --check-sig Release
+cp Release.gpg Release.sig
+gpg --keyid-format 0xlong --verify Release.sig
+
+mkdir -p main/installer-armhf/current/images/
+
+wget http://httpredir.debian.org/debian/dists/sid/main/installer-armhf/current/images/MD5SUMS -O main/installer-armhf/current/images/MD5SUMS
+wget http://httpredir.debian.org/debian/dists/sid/main/installer-armhf/current/images/SHA256SUMS -O main/installer-armhf/current/images/SHA256SUMS
+
+echo "ec7acbe040919249cc4c2e69db9a642f main/installer-armhf/current/images/MD5SUMS" | md5sum -c -
+echo "181bd16f580a11a61711683bd3584e56 main/installer-armhf/current/images/SHA256SUMS" | md5sum -c -
+
+echo "cbdad0d2f17375c68a90e3a6f1c603ae3c227114e8eeb321dbbb19155c6ae69e main/installer-armhf/current/images/MD5SUMS" | sha256sum -c -
+echo "4a99cac46f5fa56e554a0b35fe54e3521b3e0dbddbc67015e9d0305fb82e940f main/installer-armhf/current/images/SHA256SUMS" | sha256sum -c -
