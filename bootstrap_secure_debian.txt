@@ -1,7 +1,12 @@
 wget http://httpredir.debian.org/debian/dists/sid/Release.gpg
 wget http://httpredir.debian.org/debian/dists/sid/Release
 
+#check signature:
 gpg --verify Release.gpg Release
+# check debian key
+gpg --check-sig "A1BD 8E9D 78F7 FE5C 3E65  D8AF 8B48 AD62 4692 5553"
+# try to find the path in the web of trast at least to one of devs signed this key
+https://pgp.cs.uu.nl/mk_path.cgi?FROM=19266D69&TO=B12525C4&PATHS=trust+paths
 
 mkdir -p main/installer-armhf/current/images/
 
