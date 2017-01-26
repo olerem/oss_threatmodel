@@ -1,0 +1,28 @@
+Mostly each node in the supply chain has fallwoing faktors:
+- HW
+- SW
+- human
+
+The human factos contains:
+- identity
+- connections
+- reputation
+
+HW factor:
+- has own supply and trast chain 
+- reputation of vendor
+- on closed suorce HW, only hope that it is good
+
+SW factor:
+- is actual topic of this file
+
+Nodes in the supply chain:
+- developer
+-- hosting
+- maintainer
+-- hosting
+- packager
+-- hosting
+- distribution
+-- hosting
+- end user
