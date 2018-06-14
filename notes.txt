@@ -1,0 +1,3 @@
+# check key
+sudo apt install hopenpgp-tools
+hkt export-pubkeys $fingerprint | hokey lint
