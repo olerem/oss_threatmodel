@@ -1,11 +1,17 @@
 "Trust your server provider or use own server... no e2e is needed!"
 
+============================== without e2e ===============================
 Public server (for example gmail, gmx, yahoo, mail.ru or any thing else in the world)
+* Cost of ownership: server (maintanance, hardware, backups) - free
+* User experience level for initial setup and maintenance: low 
+
 - commercial use of communication
   Level: easy (servers are designed to do it automatically)
-  Example: many of free providers do it
+  Example: Google is know to use unencrypted user mails for profiling
+  improve 
   Probability: every day reality
   User informed: probably not  
+  Cost of ownership: server (maintanance, hardware, backups) - free
 
 - political use ..
   Level: depends on the price of data
@@ -32,6 +38,9 @@ Public server (for example gmail, gmx, yahoo, mail.ru or any thing else in the w
   User informed: probably not  
 
 Own server by server provider
+* Cost of ownership: depends on contract
+* User experience level for initial setup and maintenance: high 
+
 - criminal investigation
   Level: usually some how restricted by the low
   Example: each provide should disclose all information request by police
@@ -50,8 +59,10 @@ Own server by server provider
   Probability: no all cases are publicly documented
   User informed: probably not  
 
-
 Own server at home
+* Cost of ownership: limited by time and budget of owner
+* User experience level for initial setup and maintenance: high 
+
 - criminal investigation
   Level: usually some how restricted by the low
   Example: each provide should disclose all information request by police
@@ -63,3 +74,26 @@ Own server at home
   Example: numbers of hacked services is probably unlimited. 
   Probability: no all cases are publicly documented
   User informed: probably not
+
+============================== with e2e ===============================
+
+Public server (for example gmail, gmx, yahoo, mail.ru or any thing else in the world)
+* Cost of ownership: server (maintanance, hardware, backups) - free
+* User experience level for initial setup and maintenance: low 
+
+- Software weakness of end device
+
+Own server by server provider
+* Cost of ownership: depends on contract
+* User experience level for initial setup and maintenance: high 
+
+- Software weakness of end device
+
+Own server at home
+* Cost of ownership: limited by time and budget of owner
+* User experience level for initial setup and maintenance: high 
+
+- criminal investigation
+
+- Software weakness of end device
+
